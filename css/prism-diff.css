@@ -1,5 +1,6 @@
 /*
  * New diff- syntax
+ * Usage: https://www.11ty.dev/docs/plugins/syntaxhighlight/
  */
 
 pre[class*="language-diff-"] {
@@ -31,7 +32,7 @@ pre[class*="language-diff-"] {
 .token.prefix.inserted,
 .token.prefix.deleted {
 	width: var(--eleventy-code-padding);
-	background-color: rgba(0,0,0,.2);
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* Optional: full-width background color */

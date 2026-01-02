@@ -6,6 +6,10 @@ const eleventyNavigation = {
 
 const numberOfLatestPostsToShow = 3;
 ---
+
+The blog works, it's ready for posts. dunno what I'll write about yet.  
+
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
@@ -16,7 +20,7 @@ const numberOfLatestPostsToShow = 3;
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="blog.njk">the archive</a>.</p>
+<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found <a href="blog.njk">here</a>.</p>
 {% endif %}
 
 {# List every content page in the project #}
