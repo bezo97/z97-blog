@@ -1,0 +1,18 @@
+# only for robots pls :)
+
+Sitemap: https://blog.z97.io/sitemap.xml
+
+User-agent: *
+Disallow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: YandexBot
+Allow: /

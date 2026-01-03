@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	
+		
+		<url>
+			<loc>https://blog.z97.io/eleventy-base-blog/blog/placeholder-post/</loc>
+			<lastmod>2026-01-02</lastmod>
+		</url>
+	
+	
+		
+		<url>
+			<loc>https://blog.z97.io/eleventy-base-blog/blog/test-writing/</loc>
+			<lastmod>2026-01-02</lastmod>
+		</url>
+	
+	
+		
+		<url>
+			<loc>https://blog.z97.io/eleventy-base-blog/about/</loc>
+			<lastmod>2026-01-03</lastmod>
+		</url>
+	
+	
+		
+		<url>
+			<loc>https://blog.z97.io/eleventy-base-blog/blog/</loc>
+			<lastmod>2026-01-03</lastmod>
+		</url>
+	
+	
+		
+		<url>
+			<loc>https://blog.z97.io/eleventy-base-blog/</loc>
+			<lastmod>2026-01-03</lastmod>
+		</url>
+	
+	
+		
+		<url>
+			<loc>https://blog.z97.io/eleventy-base-blog/tags/</loc>
+			<lastmod>2026-01-03</lastmod>
+		</url>
+	
+	
+		
+		<url>
+			<loc>https://blog.z97.io/eleventy-base-blog/feed/feed.xml</loc>
+			<lastmod>2026-01-03</lastmod>
+		</url>
+	
+</urlset>
