@@ -1,6 +1,6 @@
 export default {
 	title: "bezo97's blog",
-	url: "https://blog.z97.io/",
+	url: "https://blog.z97.io",
 	language: "en",
 	description: "Where I write about stuff",
 	author: {

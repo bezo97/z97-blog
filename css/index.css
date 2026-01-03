@@ -1,3 +1,7 @@
+:root {
+	--pico-font-family: monospace;
+}
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -16,6 +20,19 @@ body > header {
 	background-size: cover;
 	padding: var(--pico-block-spacing-vertical)
 		var(--pico-block-spacing-horizontal);
+	text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black;
+	filter: hue-rotate(0deg);
+	animation: hue-rotate-animation 300s linear infinite;
+	--pico-primary: white;
+}
+
+@keyframes hue-rotate-animation {
+	0% {
+		filter: hue-rotate(0deg);
+	}
+	100% {
+		filter: hue-rotate(-360deg);
+	}
 }
 
 /* Custom footer graphics */
