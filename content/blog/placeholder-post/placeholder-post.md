@@ -13,6 +13,21 @@ You may now access the octahedron:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/akGpGA3jYek?si=PfIhwfi4t2E6x7N4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Mermaid diagram test
+
+Blog post with embedded mermaid diagram 🫨
+
+```mermaid
+
+graph LR
+  F[Client-1] --> B[API Gateway]
+  A[Client-2] --> B[API Gateway]
+  B --> C[Auth Service]
+  B --> D[Data Service]
+  C --> E[DB]
+
+```
+
 ## Section Header
 
 I can show code diffs like this:

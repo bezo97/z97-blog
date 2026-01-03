@@ -50,6 +50,11 @@ body > footer {
 	navigation: auto;
 }
 
+/*Avoid overriding mermaid diagram labels by picocss*/
+svg p {
+	color: unset;
+}
+
 /* Fluid images via https://www.zachleat.com/web/fluid-images/ */
 img {
 	max-width: 100%;

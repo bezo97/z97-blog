@@ -8,6 +8,7 @@ import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import mila from "markdown-it-link-attributes";
+import { mermaidFence } from "./mermaid-cli-markdown-it-plugin.js";
 
 import pluginFilters from "./_config/filters.js";
 
@@ -144,6 +145,11 @@ export default async function (eleventyConfig) {
 			},
 		})
 	);
+
+	// Render Mermaid diagrams from markdown to inline svg
+	eleventyConfig.amendLibrary("md", (mdLib) => {
+		mdLib.use(mermaidFence);
+	});
 }
 
 export const config = {
